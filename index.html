@@ -9,14 +9,19 @@
 </head>
 <body>
     <header>
-        <span class="logo">NossaEmpresa</span>
-        <nav>
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+    <span class="logo">NossaEmpresa</span>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#funcionalidades">Funcionalidades</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
         </ul>
-        </nav>
+    </nav>
     </header>
 
     <main>
@@ -45,7 +50,7 @@
 
         </section>
 
-        <section class="depoimentos">
+        <section class="depoimentos" id="depoimentos">
             <h2>O que dizem nossos clientes</h2>
             <div class="depoimentos-grid">
                 <article>
@@ -74,6 +79,6 @@
         <p>&copy; 2024 Nossa Empresa. Todos os direitos reservados.</p>
     </footer>
 
-    
+     <script src="scripts/main.js"></script>    
 </body>
 </html>
