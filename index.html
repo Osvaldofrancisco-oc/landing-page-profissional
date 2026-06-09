@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossa Empresa</title>
+    <link rel="stylesheet" href="styles/main.css">
+    
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo">
-
+        <span class="logo">NossaEmpresa</span>
         <nav>
             <ul>
             <li><a href="#">Home</a></li>
@@ -19,14 +20,16 @@
     </header>
 
     <main>
-        <section>
+        <section class="hero">
             <h1>Bem-vindo à Nossa Empresa</h1>
-            <p>Nossa Missão</p>
+            <p>Nossa Missão </p>
+            <a href="#funcionalidades" class="btn-primary">Conhecer funcionalidades</a>
         </section>
 
-        <section>
+        <section id="funcionalidades">
             <h2>Nossas Funcionalidades</h2>
-            <article>
+            <div class="cards-grid">
+                <article>
                 <h3>Artigo 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo. Sed at ligula a nunc efficitur bibendum.</p>
             </article>
@@ -37,13 +40,15 @@
             <article>
                     <h3>Artigo 3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo. Sed at ligula a nunc efficitur bibendum.</p>
-            </article>         
+            </article>   
+            </div>      
 
         </section>
 
-        <section>
+        <section class="depoimentos">
             <h2>O que dizem nossos clientes</h2>
-            <article>
+            <div class="depoimentos-grid">
+                <article>
                 <p>"Este produto mudou completamente a forma como trabalho."</p>
                 <footer>
                     <cite>— Maria Silva, Designer</cite>
@@ -61,6 +66,7 @@
                 <cite>— Maria Silva, Designer</cite>
             </footer>
             </article>
+            </div>
         </section>
     </main>
 
