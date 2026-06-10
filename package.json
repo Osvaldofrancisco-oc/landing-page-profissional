@@ -1,0 +1,25 @@
+{
+  "name": "landing-page-profissional",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "tsc",
+  "watch": "tsc --watch"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osvaldofrancisco-oc/landing-page-profissional.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Osvaldofrancisco-oc/landing-page-profissional/issues"
+  },
+  "homepage": "https://github.com/Osvaldofrancisco-oc/landing-page-profissional#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
